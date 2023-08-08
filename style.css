@@ -1,3 +1,4 @@
+/*Global Style*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 * {
@@ -13,13 +14,10 @@ body {
     background-image: linear-gradient(to right, rgb(236, 26, 106), rgba(199, 196, 28, 0.78));
     color: rgb(9, 9, 9);
 }
-
-/* header heading section */
+/*Navbar Styles*/
 #heading {
     margin-top: 100px;
 }
-
-/* header navbar */
 #nav {
     display:flex;
     align-items:center;
@@ -34,7 +32,6 @@ body {
     padding-top:2px;
 }
 
-/* app's logo */
 #logo {
     height: 50px;
     width: 50px;
@@ -42,7 +39,7 @@ body {
    
 }
 
-/* header search bar section */
+/* Search Styles */
 #heading h3{
     font-weight:bolder;
     font-family:cursive;
@@ -63,7 +60,7 @@ body {
 }
 
 
-/* meal card */
+/*Menu Card*/
 #card {
     background-image: linear-gradient(119deg, #1109f5bd, #03f6b9e3);
     padding: 10px;
@@ -92,8 +89,6 @@ body {
     text-align: center;
 }
 
-
-/* meal details container */
 #meal-details {
     width: 100%;
     padding: 20px;
@@ -111,7 +106,6 @@ body {
     width: 250px;
     border-radius: 50%;
 }
-
 #details {
     display: flex;
     flex-direction: column;
@@ -119,13 +113,10 @@ body {
     justify-content: center;
     font-style: italic;
 }
-
 #meal-instruction {
     margin: auto;
     text-align: center;
 }
-
-/* favourites offcanvus */
 #favourites-body {
     background-color: #212529;
 }
